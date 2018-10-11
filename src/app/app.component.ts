@@ -12,7 +12,7 @@ export class AppComponent {
 
   title = 'Excella Dashboard - Monthly Activity Report';
   data = new Data;
-  url = 'http://10.68.245.220:8080/monthly-report/';
+  url = 'http://a8e712eeecd6411e89b8b06107faff98-1842757079.us-east-2.elb.amazonaws.com:8080/monthly-report/';
   constructor(private httpClient: HttpClient) {}
   chartData = [
     { data: [], label: 'Headcount' },
